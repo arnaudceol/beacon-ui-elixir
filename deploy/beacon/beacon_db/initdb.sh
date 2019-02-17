@@ -48,3 +48,4 @@ CREATE OR REPLACE VIEW beacon_data AS
     INNER JOIN beacon_dataset ebdat ON bd.dataset_id::text = ebdat.id::text;
 
 EOSQL
+

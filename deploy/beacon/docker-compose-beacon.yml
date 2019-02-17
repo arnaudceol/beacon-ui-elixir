@@ -13,6 +13,7 @@ services:
       - beacon
       - beacon_db
   beacon:
+    # image: beacon_beacon
     build:
       context: beacon_backend/
     # Backend will be reachable at http://127.0.0.1:9075/
